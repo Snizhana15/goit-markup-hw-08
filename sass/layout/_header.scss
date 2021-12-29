@@ -1,0 +1,18 @@
+  .header {
+    border-bottom: 1px solid #ECECEC;
+  }
+  .header__container {
+    display: none;
+    @media screen and (min-width:768px){
+    display: flex;
+    align-items: center;}
+  }
+
+  .header__navigation {
+    display: flex;
+    align-items: center;
+  }
+  .header__logo {
+    margin-right: 90px;
+  }
+  

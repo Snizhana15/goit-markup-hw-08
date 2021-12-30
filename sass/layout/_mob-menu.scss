@@ -1,16 +1,20 @@
-.open-menu {
- display: flex;
- justify-content: space-between;
+.menu {
  @media (min-width: 768px) {
     display: none;}
 }
-.open-menu__logo {
-    margin-left: 15px;
+.menu__logo {
     margin-bottom: 16px;
     margin-top: 16px;
 }
-.open-menu__btn {
-    margin-right: 15px;
+.menu__container {
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 768px){
+    justify-content: space-between;}
+}
+
+
+.menu__btn {
     margin-bottom: 10px;
     margin-top: 10px;
     background-color: #ffffff;
